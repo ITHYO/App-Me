@@ -1,60 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
-
-    <title>QAconfirem</title>
-    <link rel="stylesheet" href="App.css">
+    <meta charset="utf-8">
+    <title>Q&A</title>
+    <link rel="stylesheet" type="text/css" href="App.css">
 </head>
 
 <body>
-    <section class="Lalyer_0">
+    <!--header-->
+    <nav class="Lalyer_0">
         <div class="container">
-            <a href="indx.html">
+            <a href="index.html">
                 <img src="img/logo.png" class="logo">
             </a>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-              <div class="QA QA1 common"><p ><a href="#about" class="Eng">Q&A</a></p></div>
-              <div class="Han common"><p ><a href="#portfolio"class="Hg">개발일지</a></p></div>
-              <div class="ABOUT common"><p><a href="#contact" class="Eng">ABOUT</a></p></div>
+                <div class="QA common">
+                    <p><a href="QA_wep.html" class="Eng">Q&A</a></p>
+                </div>
+                <div class="Han common">
+                    <p><a href="dev_wep.html" class="Hg">개발일지</a></p>
+                </div>
+                <div class="ABOUT common">
+                    <p><a href="about_wep.html" class="Eng">ABOUT</a></p>
+                </div>
             </div>
         </div>
+    </nav>
+    <section class="background1">
+        <br><br><br><br>
+        <div class="QA_title">Q&A</div><br><br>
+        <div class="intro">
+            앱앤미와 관련되어 궁금한 점이 있다면<br>
+            질문하고 궁금증을 풀어보세요. </div><br><br><br>
+        <hr width="1200px" color="gray" size="1"><br><br><br><br>
+        <center>
+            <table width="1000px" class="list-table">
+                <tr height="40px">
+                    <td style="background-color:#E4E4E4; ">제목</td>
+                    <td><input type="text" size="50" style="float:left; margin-left: 5%; text-align: left;"></td>
+                </tr>
+                <tr height="40px">
+                    <td style="background-color:#E4E4E4; ">작성자</td>
+                    <td><input type="text" size="35" style="float:left;  margin-left:5%;"></td>
+                </tr>
+                <tr height="40px">
+                    <td colspan="2"><textarea style="float:left;  margin-left:2%; margin-top: 0.5%; margin-bottom:0.5%;"
+                        cols="145" rows="30" placeholder="내용을 입력해주세요."></textarea></td>
+                </tr>
+            </table>
+        </center>
+        <button type="submit" style="float: right; margin-right:20%; margin-top:1.5%;">등록</button>
+        <button type="submit" style="float: right; margin-right:1%; margin-top:1.5%;">취소</button>
     </section>
-
-  <section class="background1">
-      <div class="container">
-        <p class="first Eng">Q&A </p>
-        <p class="Ttext Ttext_3 Hg">
-          앱앤미와 관련되어 궁금한 점이 있다면<br/>
-          질문하고 궁금증을 풀어보세요. 
-        </p><br/><br/><br/><br/>
-      </div>
-      <hr style="width: 80%; color:#231f20; border-bottom: 0px; margin: 0 auto; ">
-      <!-- 표 -->
-        <div id="titles">제목</div>
-        <div id="box_2">앱앤미 최곡</div>
-        <div id="writer">작성자</div>
-        <div id="box_2">앱앤미 최곡</div>
-
-
-  </section><br><br><br><br>
-
     <table class="margin">
-        <tr>    
-            <td valign="center" width="600px"><div class="APP_ME">APP&ME</div></td>
-            <td rowspan="2"> <hr color="#ff8daf"size="70" border="solid" style="margin-top: 13px"><br></td>
-            <td valign="center" width="600px"><div class="developed_App">developed & designed by APP & ME</div></td>
+        <tr>
+            <td valign="center" width="600px">
+                <div class="APP_ME">APP&ME</div>
+            </td>
+            <td rowspan="2">
+                <hr color="#ff8daf" size="70" border="solid" style="margin-top: 13px"><br></td>
+            <td valign="center" width="600px">
+                <div class="developed_App">developed & designed by APP & ME</div>
+            </td>
         </tr>
         <tr>
-            <td valign="top" align="right" width="600px"><div class="from">from. Mirim Meister School</div> </td>
-            <td valign="top" align="right" width="600px"><div class="address">(00821) 서울시 관악구 호암로 546 (신림동)</div></td>
+            <td valign="top" align="right" width="600px">
+                <div class="from">from. Mirim Meister School</div>
+            </td>
+            <td valign="top" align="right" width="600px">
+                <div class="address">(00821) 서울시 관악구 호암로 546 (신림동)</div>
+            </td>
         </tr>
-     </table><br><br>
+    </table><br><br>
 </body>
+
 </html>

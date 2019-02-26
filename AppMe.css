@@ -45,24 +45,31 @@ html body {
     background-color: #f8f8f8;
 }
 
-.background2{
+/* .background2{
+  max-width: 100%;
+  margin-bottom:400px;
+  background-color: #ffffff;
   display: block;
   max-width: 100%;
-  /* margin-bottom: 100px; */
-  background-color: #ffffff;
-  height: 622px;
+  height: 100px;
 }
 .background3{
+  max-width: 100%;
+  background-color: #ffffff;
+  display: block;
+  max-width: 100%;
+  height: 100px;
+}
+
+.background4{
   display: block;
   max-width: 100%;
   margin-bottom: 100px;
   background-color: #f8f8f8;
-  height: 822px;
-} 
-.ABOUT1{ color: #ff8daf;}
+  height: 622px;
+} */
 .ABOUT {
-  width: 62px;
-  height: 15px;
+  /* width: 62px; */
   object-fit: contain;
   font-family: NotoSansCJKkr-light;
   font-size: 20px;
@@ -74,15 +81,12 @@ html body {
   text-align: left;
   color: #231f20;
   float: right;
-  line-height:1.6em;
+  margin: 0 auto;
   position: relative;
 }
-.Han1{ color: #ff8daf;}
 .Han{
  width: 67px;
- height: 19px;
  object-fit: contain;
- font-family: NotoSansCJKkr-light;
  font-size: 20px;
  font-weight: 300;
  font-style: normal;
@@ -92,14 +96,11 @@ html body {
  text-align: left;
  color: #231f20;
  float: right;
- line-height:1.6em;
 }
-
+.Han1{ color: #ff8daf;}
 .QA {
   width: 36px;
-  height: 19px;
   object-fit: contain;
-  font-family: NotoSansCJKkr-light;
   font-size: 20px;
   font-weight: 300;
   font-style: normal;
@@ -110,54 +111,21 @@ html body {
   color: #231f20;
   float: right;
   margin-right: 10%;
-  line-height:1.6em;
 }
 .QA1 { color: #ff8daf;}
 .common {
+    position: relative;
     display: inline-table;
     background-color: white;
     font-size: 20px;
     width: 100px;
-    height:50px;
     position: relative;
-    top: 10px;
 }
+
 a:link { color: inherit; text-decoration: none;}
 a:visited { color: inherit; text-decoration: none;}
 a:hover { color: inherit; text-decoration: none;}
 
-.ABOUT_title {
-  width: 173px;
-  height: 42px;
-  object-fit: contain;
-  font-family: NotoSansCJKkr-Bold;
-  font-size: 54px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.59;
-  letter-spacing: -3.2px;
-  text-align: left;
-  color: #231f20;
-  margin-left: 10%;
-  line-height:1.6em;
-}
-.DEV_title {
-  width: 220px;
-  height: 51px;
-  object-fit: contain;
-  font-family: NotoSansCJKkr-Bold;
-  font-size: 54px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.59;
-  letter-spacing: -3.2px;
-  text-align: left;
-  color: #231f20;
-  margin-left: 10%;
-  line-height:1.6em;
-}
 .USER-MAKER-APP-ME {    /* USER에서 --  */
   display: block;
   font-size: 47px;
@@ -170,8 +138,8 @@ a:hover { color: inherit; text-decoration: none;}
   color: #231f20;
   font-family: 'Noto Sans', sans-serif;
   margin: 0;
-  padding-left:10%;
-  padding-top: 10%; 
+  padding-left: 5%;
+  padding-top: 5%; 
 }
 .Test2 {  /*2019년, --*/
   display: block;
@@ -185,7 +153,7 @@ a:hover { color: inherit; text-decoration: none;}
   color: #231f20;
   font-family: 'Noto Sans', sans-serif;
   margin: 0;
-  padding-left: 10%;
+  padding-left: 5%;
   padding-top: 2%;  
 }
 .Test3 {
@@ -202,17 +170,16 @@ a:hover { color: inherit; text-decoration: none;}
   text-align : center;
   float: left;
   margin: 0;
-  padding-left: 10%;
+  padding-left: 5%;
   padding-top: 2%;  
 }
 .imgs{
-  width: 696px;
-  height: 732px;
   display: block;
   padding-left:57%; 
   padding-top:5%;
   position: absolute;
   overflow: auto;
+  width: 500px;
 }
 .imgs_2{
   display: block;
@@ -221,25 +188,6 @@ a:hover { color: inherit; text-decoration: none;}
   position: absolute;
   overflow: auto;
   width: 500px;
-}
-
-.imgs_3{
-  width: 688px;
-  height: 462px;
-  display: block;
-  padding-left:57%; 
-  padding-top:5%;
-  position: absolute;
-  overflow: auto;
-}
-.imgs_4{
-  width: 583px;
-  height: 464px;
-  display: block;
-  padding-left:57%; 
-  padding-top:5%;
-  position: absolute;
-  overflow: auto;
 }
 .button1 {   /*지원하기*/
   display: block;
@@ -250,8 +198,8 @@ a:hover { color: inherit; text-decoration: none;}
   background-color: #f8f8f8;
   font-family: 'Noto Sans', sans-serif;
   padding: 0;
-  margin-top: 151px;
-  margin-left: 10%;
+  margin-top: 101px;
+  margin-left: 5%;
   font-size: 32.5px;
   font-weight: bold;
   font-style: normal;
@@ -362,53 +310,11 @@ a:hover { color: inherit; text-decoration: none;}
   padding-right: 25%;
   padding-top: 7%; 
 }
-.jb-wrap {
-	position: relative;
-}
-.jb-wrap img {
-	width: 350px;
-  height:400px;
-	vertical-align: middle;
-  border-top-left-radius: 2em;
-  border-top-right-radius: 2em;
-}
-.jb-text {
-	padding: 20px 10px;
-	background-color: white;
-  font-family:NotoSansCJKkr-Bold;
-  font-size: 32px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.16;
-  letter-spacing: -1.9px;
-  text-align: left;
-  color: #414042;
-  margin-top: -30px;
-  line-height:1.6em;
-  border-bottom-left-radius: 2em;
-  border-bottom-right-radius: 2em;
-}
 
-.QA_title {
-  width: 120px;
-  height: 60px;
-  object-fit: contain;
-  font-family: NotoSansCJKkr-Bold;
-  font-size: 54px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.59;
-  letter-spacing: -3.2px;
-  text-align: left;
-  color: #231f20;
-  margin-left: 10%;
-  line-height:1.6em;
-}
 .intro {
+  width: 350px;
+  height: 72px;
   object-fit: contain;
-  font-family: NotoSansCJKkr-light;
   font-size: 28px;
   font-weight: 300;
   font-style: normal;
@@ -418,11 +324,10 @@ a:hover { color: inherit; text-decoration: none;}
   text-align: left;
   color: #231f20;
   margin-left: 10%;
-  line-height:1.6em;
 }
 .title {
- /*  width: 250px;
-  height: 42px; */
+  width: 250px;
+  height: 42px;
   object-fit: contain;
   font-size: 45px;
   font-weight: 500;
@@ -445,56 +350,8 @@ a:hover { color: inherit; text-decoration: none;}
   letter-spacing: -1.6px;
   text-align: left;
   color: #231f20;
-  line-height:1.6em;
 }
-.list-table{
-  text-align:center;
-  border:1px solid gray;
-  text-align:center;
-  height:30px;
-}
-.list-table thead th{
-  border-bottom:1px solid gray;
-  background-color: #E4E4E4;
-}
-.list-table tbody td{
-  text-align:center;
-  border-bottom:1px solid gray;
-  text-align:center;
-  height:30px;
-}
-.club_top1{
-  width: 595px;
-  height:550px;
-}
-.jb-wrap {
-	position: relative;
-}
-.jb-wrap img {
-	width: 595px;
-  height:550px;
-	vertical-align: middle;
-}
-.jb-text {
-	padding: 240px 265px;
-	background-color: white;
-  font-family:NotoSansCJKkr-DemiLight;
-	text-align: center;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate( -50%, -50% );
-    line-height:1.6em;
-}
-.vdo{
-  margin-left: 10%;
-  float: left;
-}
-.img_pp{
-  float: left;
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
+
 .APP_ME {
   width: 144px;
   height: 25px;
@@ -542,7 +399,7 @@ a:hover { color: inherit; text-decoration: none;}
   color: #ff8daf;
   line-height:1.6em;
   margin-bottom: -15px;
-  margin-left:40%;
+  margin-left: 40%;
 }
 .first {    /* 1차 --  */
   display: block;
@@ -577,6 +434,7 @@ a:hover { color: inherit; text-decoration: none;}
   padding-left: 10%;
   padding-top: 3%; 
 }
+
 .address{
   width: 320px;
   height: 20px;
@@ -591,11 +449,13 @@ a:hover { color: inherit; text-decoration: none;}
   text-align: right;
   color: #ff8daf;
   line-height:1.6em;
-  margin-right:5%;
+  margin-bottom: -15px;
+  margin-right: 5%;
 }
 .margin{
   margin-left: 10%;
 }
+
 
 #titles { 
   width: 178px;
