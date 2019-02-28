@@ -4,6 +4,15 @@
     <meta charset="utf-8">
     <title>Q&A</title>
     <link rel="stylesheet" type="text/css" href="App.css">
+
+    <style>
+        @import "https://fonts.google.com/specimen/Noto+Sans?fbclid=IwAR1rho8MwXOMwknTk84vc0Y-y2PKP0Q5ce5guoQWm1to61Yy9tdqqUuHbyQ";
+
+        body {
+            font-family: NotoSansCJKkr-light;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -26,31 +35,33 @@
             </div>
         </div>
     </nav>
-    <section class="background1">
+    <section class="background1_2">
         <br><br><br><br>
         <div class="QA_title">Q&A</div><br><br>
         <div class="intro">
             앱앤미와 관련되어 궁금한 점이 있다면<br>
             질문하고 궁금증을 풀어보세요. </div><br><br><br>
         <hr width="80%" color="gray" size="1"><br><br><br><br>
-        <center>
-            <table width="1000px" class="list-table">
+
+        <form name="BoardViewForm" method="post">
+            <table width="1000px" class="list-table" align=center>
                 <tr height="40px">
-                    <td style="background-color:#E4E4E4; ">제목</td>
-                    <td><input type="text" size="50" style="float:left; margin-left: 5%; text-align: left;"></td>
+                    <td bgcolor=#f6f6f6>제목</td>
+                    <td bgcolor=#fbfbfb size="35" style="margin-left:0%; text-align: left">앱앤미는 뭐하는 곳인가요</td>
                 </tr>
                 <tr height="40px">
-                    <td style="background-color:#E4E4E4; ">작성자</td>
-                    <td><input type="text" size="35" style="float:left;  margin-left:5%;"></td>
+                    <td bgcolor=#f6f6f6>작성자</td>
+                    <td bgcolor=#fbfbfb size="35" style=" margin-left:0%; text-align: left">수현 짱</td>
                 </tr>
                 <tr height="40px">
-                    <td colspan="2"><textarea style="float:left;  margin-left:2%; margin-top: 0.5%; margin-bottom:0.5%;"
-                            cols="145" rows="30" placeholder="내용을 입력해주세요."></textarea></td>
+                    <td colspan="2"><textarea style="margin-left:0.5%; margin-top: 0.5%; margin-bottom:0.5%; margin-right:0.5%;" 
+                        cols="135" rows="25"></textarea></td>
                 </tr>
             </table>
-        </center>
-        <a href="QA_wep.html"><button type="submit" style="float: right; margin-right:20%; margin-top:1.5%;">목록</button></a>
+            <button type="submit" style="float: right; margin-right:20%; margin-top:1.5%;">목록</button>
+        </form>
     </section>
+
     <table class="margin">
         <tr>
             <td valign="center" width="600px">
