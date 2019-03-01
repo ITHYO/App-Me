@@ -2,6 +2,7 @@
 @import "https://fonts.google.com/specimen/Raleway?fbclid=IwAR2FisFUlxPR3gvJyhRkk598M_lIJfT83CmsqqHDtQlOXF7QDELfDKiqFaI";
 body{
     margin: 0;
+      font-family:'Noto Sans';
 }
 html body {
     width: 100%;
@@ -109,7 +110,7 @@ a:link { color: inherit; text-decoration: none;}
 a:visited { color: inherit; text-decoration: none;}
 a:hover { color: inherit; text-decoration: none;}
 .ABOUT_title {
-  width: 173px;
+  width: 1180px;
   height: 42px;
   object-fit: contain;
   font-family: NotoSansCJKkr-Bold;
@@ -121,11 +122,11 @@ a:hover { color: inherit; text-decoration: none;}
   letter-spacing: -3.2px;
   text-align: left;
   color: #231f20;
-  margin-left: 10%;
+  margin:auto;
   line-height:1.6em;
 }
 .intro {
-  width: 350px;
+  width: 1180px;
   height: 72px;
   object-fit: contain;
   font-family: NotoSansCJKkr-light;
@@ -137,7 +138,7 @@ a:hover { color: inherit; text-decoration: none;}
   letter-spacing: -1.7px;
   text-align: left;
   color: #231f20;
-  margin-left: 10%;
+  margin:auto;
   line-height:1.6em;
 }
 .title {
@@ -270,4 +271,8 @@ a:hover { color: inherit; text-decoration: none;}
 }
 .margin{
   margin-left: 10%;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 15px 30px;
 }
